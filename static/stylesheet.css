@@ -1,0 +1,22 @@
+table {
+	margin-bottom: 20px;
+	width: 100%;
+}
+td {
+	width: 11.11%;
+	padding-bottom: 11.11%;
+	border: 1px solid black;
+	background-color: white;
+}
+td:hover {
+	outline: 3px solid black;
+}
+.container
+ {
+	margin-top: 20px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
