@@ -1,7 +1,7 @@
 #include <Adafruit_NeoPixel.h>
 
 const uint8_t PIN  = 6;
-const uint8_t NUMPIXELS = 162;
+const uint8_t NUMPIXELS = 25;
 
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_RGB + NEO_KHZ800);
 
