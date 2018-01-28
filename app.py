@@ -13,7 +13,7 @@ socketio = SocketIO(app)
 
 arduino_ports = [p.device for p in serial.tools.list_ports.comports()]
 
-display = Display(5, 5, arduino_ports[0], 9600);
+display = Display(9, 9, arduino_ports[0], 9600);
 
 canvas = Canvas(display)
 
